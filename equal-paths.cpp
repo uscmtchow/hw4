@@ -14,20 +14,7 @@ bool equalPaths(Node * root)
 }
 
 int equalPathsHelper(Node* root) {
-    // if (root == nullptr) return 0;
-
-	// int lh = 0, rh = 0;
-
-	// if (root->left != nullptr) lh = equalPathsHelper(root->left) + 1;
-	// if (root->right != nullptr) rh = equalPathsHelper(root->right) + 1;
-
-	// if (lh == rh || lh == rh+1 || lh == rh-1) {
-	// 	if (lh > rh) return lh;
-	// 	return rh;
-	// }
-	// return -1;
-
-    if (root == nullptr) return 0;
+  if (root == nullptr) return 0;
 
 	int lh = 0, rh = 0;
 
